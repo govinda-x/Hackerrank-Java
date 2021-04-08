@@ -1,2 +1,2 @@
 # Hackerrank-Java
-Collection of HackerRank Solution
+Collection of HackerRank Java Solution
