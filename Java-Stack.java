@@ -55,25 +55,25 @@ class Solution{
                     }
             }	 
         }
-        	if(s.isEmpty())
-        	{
-            		return 1;
-        	}
-        	return 0;
-      }
+	if(s.isEmpty())
+	{
+		return 1;
+	}
+	return 0;
+    }
 	public static void main(String []argh)
 	{
 		Scanner sc = new Scanner(System.in);
-		
+
 		while (sc.hasNext()) {
 			String input=sc.next();
-            		if(solve(input) == 1 ){
-                		System.out.println("true");
-            		}
-            		else{
-                		System.out.println("false");
-            		}
-        	}
+			if(solve(input) == 1 ){
+				System.out.println("true");
+			}
+			else{
+				System.out.println("false");
+			}
+		}
 	}
 }
 
